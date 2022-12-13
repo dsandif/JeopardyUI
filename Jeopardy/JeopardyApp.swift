@@ -11,7 +11,7 @@ import SwiftUI
 struct JeopardyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          GameBoardView()
         }
     }
 }

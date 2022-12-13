@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A65B383F29491C89005B5572 /* JeopardyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B383E29491C89005B5572 /* JeopardyApp.swift */; };
-		A65B384129491C89005B5572 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B384029491C89005B5572 /* ContentView.swift */; };
 		A65B384329491C8B005B5572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65B384229491C8B005B5572 /* Assets.xcassets */; };
 		A65B384729491C8B005B5572 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65B384629491C8B005B5572 /* Preview Assets.xcassets */; };
+		A65B385529491CFE005B5572 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B384D29491CFD005B5572 /* GameBoardView.swift */; };
+		A65B385629491CFE005B5572 /* jeopardy-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A65B384F29491CFD005B5572 /* jeopardy-logo.png */; };
+		A65B385729491CFE005B5572 /* jeopardy-font-gyparody-hv-betterstudio.com.zip in Resources */ = {isa = PBXBuildFile; fileRef = A65B385029491CFD005B5572 /* jeopardy-font-gyparody-hv-betterstudio.com.zip */; };
+		A65B385829491CFE005B5572 /* 4-jeopardy-logo-SVG-betterstudio.com_.svg in Resources */ = {isa = PBXBuildFile; fileRef = A65B385129491CFD005B5572 /* 4-jeopardy-logo-SVG-betterstudio.com_.svg */; };
+		A65B385C2949277E005B5572 /* PTSansNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65B385B2949277E005B5572 /* PTSansNarrow-Bold.ttf */; };
+		A65B385E2949278A005B5572 /* PTSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65B385D2949278A005B5572 /* PTSans-Regular.ttf */; };
+		A65B386029492796005B5572 /* PTSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65B385F29492796005B5572 /* PTSans-Bold.ttf */; };
+		A65B3862294927A1005B5572 /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65B3861294927A1005B5572 /* Impact.ttf */; };
+		A65B3864294927BE005B5572 /* Korinna-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A65B3863294927BE005B5572 /* Korinna-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A65B383B29491C89005B5572 /* Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65B383E29491C89005B5572 /* JeopardyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeopardyApp.swift; sourceTree = "<group>"; };
-		A65B384029491C89005B5572 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A65B384229491C8B005B5572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A65B384429491C8B005B5572 /* Jeopardy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jeopardy.entitlements; sourceTree = "<group>"; };
 		A65B384629491C8B005B5572 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A65B384D29491CFD005B5572 /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		A65B384F29491CFD005B5572 /* jeopardy-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jeopardy-logo.png"; sourceTree = "<group>"; };
+		A65B385029491CFD005B5572 /* jeopardy-font-gyparody-hv-betterstudio.com.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "jeopardy-font-gyparody-hv-betterstudio.com.zip"; sourceTree = "<group>"; };
+		A65B385129491CFD005B5572 /* 4-jeopardy-logo-SVG-betterstudio.com_.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4-jeopardy-logo-SVG-betterstudio.com_.svg"; sourceTree = "<group>"; };
+		A65B385B2949277E005B5572 /* PTSansNarrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSansNarrow-Bold.ttf"; sourceTree = "<group>"; };
+		A65B385D2949278A005B5572 /* PTSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSans-Regular.ttf"; sourceTree = "<group>"; };
+		A65B385F29492796005B5572 /* PTSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSans-Bold.ttf"; sourceTree = "<group>"; };
+		A65B3861294927A1005B5572 /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
+		A65B3863294927BE005B5572 /* Korinna-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Korinna-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,10 @@
 		A65B383D29491C89005B5572 /* Jeopardy */ = {
 			isa = PBXGroup;
 			children = (
+				A65B385229491CFE005B5572 /* Font */,
+				A65B384D29491CFD005B5572 /* GameBoardView.swift */,
+				A65B384E29491CFD005B5572 /* Other */,
 				A65B383E29491C89005B5572 /* JeopardyApp.swift */,
-				A65B384029491C89005B5572 /* ContentView.swift */,
 				A65B384229491C8B005B5572 /* Assets.xcassets */,
 				A65B384429491C8B005B5572 /* Jeopardy.entitlements */,
 				A65B384529491C8B005B5572 /* Preview Content */,
@@ -67,6 +85,28 @@
 				A65B384629491C8B005B5572 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A65B384E29491CFD005B5572 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A65B384F29491CFD005B5572 /* jeopardy-logo.png */,
+				A65B385029491CFD005B5572 /* jeopardy-font-gyparody-hv-betterstudio.com.zip */,
+				A65B385129491CFD005B5572 /* 4-jeopardy-logo-SVG-betterstudio.com_.svg */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A65B385229491CFE005B5572 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A65B3861294927A1005B5572 /* Impact.ttf */,
+				A65B385D2949278A005B5572 /* PTSans-Regular.ttf */,
+				A65B385F29492796005B5572 /* PTSans-Bold.ttf */,
+				A65B385B2949277E005B5572 /* PTSansNarrow-Bold.ttf */,
+				A65B3863294927BE005B5572 /* Korinna-Regular.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +167,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65B385C2949277E005B5572 /* PTSansNarrow-Bold.ttf in Resources */,
+				A65B385729491CFE005B5572 /* jeopardy-font-gyparody-hv-betterstudio.com.zip in Resources */,
+				A65B385829491CFE005B5572 /* 4-jeopardy-logo-SVG-betterstudio.com_.svg in Resources */,
+				A65B3862294927A1005B5572 /* Impact.ttf in Resources */,
+				A65B385629491CFE005B5572 /* jeopardy-logo.png in Resources */,
+				A65B386029492796005B5572 /* PTSans-Bold.ttf in Resources */,
+				A65B385E2949278A005B5572 /* PTSans-Regular.ttf in Resources */,
 				A65B384729491C8B005B5572 /* Preview Assets.xcassets in Resources */,
 				A65B384329491C8B005B5572 /* Assets.xcassets in Resources */,
+				A65B3864294927BE005B5572 /* Korinna-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65B384129491C89005B5572 /* ContentView.swift in Sources */,
 				A65B383F29491C89005B5572 /* JeopardyApp.swift in Sources */,
+				A65B385529491CFE005B5572 /* GameBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
