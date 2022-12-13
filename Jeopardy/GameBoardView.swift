@@ -32,7 +32,7 @@ struct ColorSquare: View {
 }
 
 struct GridDemo: View {
-    let categories = ["national monuments","nba teams", "wearable tech","peak my interest", "famous freddies", "name games"]
+    let categories = ["national monuments","nba teams", "wearable tech"," \"peak\" my interest", "famous freddies", "name games"]
     let values = [200,400,600,800,1000]
   
     var body: some View {
